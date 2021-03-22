@@ -18,7 +18,7 @@ html{
 /* Navbar links */
 .topnav a {
   float: left;
-  color: #DB6400;
+  color:#729FBC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -91,7 +91,7 @@ footer p{
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     
     /* Needed to position the navbar */
     position: relative;
