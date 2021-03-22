@@ -1,0 +1,22 @@
+body, html, #main{
+  margin:0;
+}
+#header{
+  margin:0;
+  height:100px;
+  background-color:#82DED9;
+}
+#maincontainer{
+  display:flex;
+  height:400px;
+
+}
+#left_column{
+  flex-grow: 1;
+  background-color:#52A1C3;
+}
+
+#right_column{
+  flex-grow: 2;
+  background-color: #ffffff;
+}

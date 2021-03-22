@@ -1,0 +1,18 @@
+body, html, #main{
+  margin:0;
+}
+#header{
+  margin:0;
+  height:100px;
+  background-color:#82DED9;
+}
+#maincontainer{
+  display:flex;
+
+}
+#left_column{
+  flex-grow: 1;
+}
+#right_column{
+  flex-grow: 2;
+}
