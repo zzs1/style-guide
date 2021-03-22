@@ -25,6 +25,28 @@ li{
     right: 25px;
 }
 
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color:white;
+  opacity: 0.8;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color:#729FBC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #694D31;
+}
+
 *{ /* this is to make the div boxes reach to the edges of the page*/
     box-sizing: border-box;
     margin:0;
@@ -86,7 +108,7 @@ footer p{
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     
     /* Needed to position the navbar */
     position: relative;
