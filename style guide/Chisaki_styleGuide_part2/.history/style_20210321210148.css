@@ -1,0 +1,42 @@
+body, html{
+  margin:0;
+  text-align:center;
+}
+p{
+  margin:0;
+}
+.title{
+  font-size:30px;
+  color:#82DED9;
+  background-color: #F1EFEF;
+}
+.subtitle, h4{
+  font-size:22px;
+  color:#52A1C3;
+}
+
+#typobox{
+  display:flex;
+
+}
+#saria {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  flex-grow: 1;
+  
+}
+#roboto {
+  font-family: 'Roboto', sans-serif;
+  flex-grow: 1;
+}
+#iconbox {
+  background-color: #82DED9;
+}
+
+#imgcontainer {
+  display:flex;
+  justify-content: center;
+}
+#imgcontainer > img {
+  margin:20px;
+}
+#graphic

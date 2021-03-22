@@ -1,0 +1,28 @@
+body, html{
+  margin:0;
+  text-align:center;
+}
+.title{
+  font-size:30px;
+  color:#82DED9;
+}
+.subtitle{
+  font-size:22px;
+  color:#52A1C3;
+}
+p{
+  color:;
+}
+#typobox{
+  display:flex;
+
+}
+#saria {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  flex-grow: 1;
+  
+}
+#roboto {
+  font-family: 'Roboto', sans-serif;
+  flex-grow: 1;
+}
