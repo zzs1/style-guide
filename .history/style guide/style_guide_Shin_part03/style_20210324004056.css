@@ -25,9 +25,7 @@ body, html{
   a:hover{
     color:#FFFFFF;
   }
-  .link:hover{
-    color:#DADADA;
-  }
+  .link:hover:
   p{
     margin:0;
   }
