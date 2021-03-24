@@ -1,0 +1,238 @@
+html, body, #main{
+    background-color:white;
+    width:100vw;
+    height:100vh;
+
+
+}
+.header{
+  margin:0;
+  height:100px;
+  background-color:#82DED9;
+}
+ul{
+  margin:0;
+  list-style: none;
+}
+li{
+  color:#FFFFFF;
+  float:right;
+  margin:10px;
+  font-size:24px;
+
+  
+
+}
+#toparrow{
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color:white;
+  opacity: 0.8;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color:#729FBC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #694D31;
+}
+
+*{ /* this is to make the div boxes reach to the edges of the page*/
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    color: #694D31;
+}
+.wrapper{ /*use this for your text section if you want it to have padded text and make it centered*/
+    
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 60px; */
+    /* display:flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+    overflow: auto; */
+}
+
+  /* Clear floats after the columns */
+  .wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .titlewrap{
+      text-indent: 5px;
+      background-color: white;
+      border: 3px solid #d67a2e;
+      border-left-style:hidden;
+      border-right-style:hidden;
+      height:50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding:10px;
+  }
+h1{
+    font-family:'Libre Baskerville', serif;;
+    font-size: 36px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+footer p{
+    margin:5px;
+}
+
+/* nav bar */
+.bg-img {
+    /* The image used */
+    
+    height: 20%;
+  
+    /* Center and scale the image nicely */
+    
+    background-size: contain;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    float:right;
+    position: relative;
+    padding-top:20px;
+    margin: 60px;
+    width: auto;
+  }
+
+  .topnav li{
+    display: inline;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+    opacity: 0.8;
+  }
+  
+  
+
+
+/*responsive design*/
+
+@media only screen and (max-width:400px) {
+  body{
+    min-width:100%;
+    margin:0;
+  }  
+
+  .topnav{
+    width:50%;
+    margin-left:0;
+  }
+  
+  .col1 , .skillbox{
+        max-width: 100%;
+        width:100%;
+        /* min-height: ; */
+    }
+
+    .col1 p{
+        width:100%;
+        height:300px;
+        overflow: scroll;
+
+    }
+    .wrapper .textwrapper .flexcontent div{
+        max-width: 100%;
+
+    }
+    
+    section div, section img{
+      min-width: 90%;
+      width:100%;
+      display: inline-table;
+      overflow: auto;
+      position: relative;
+    }
+  
+    .photo {
+      margin-top: 700px;
+      width: 100%;
+      display: inline-flex;
+    }
+    .gallery{
+        display: none;
+    }
+    .form{
+        max-width: 100%;
+    }
+  }
+  @media only screen and (min-width:401px)and (max-width:960px) {
+    .col1 , .skillbox{
+      max-width: 100%;
+      width: 100%;
+      /* min-height: ; */
+  }
+
+  .col1 p{
+      width:100%;
+  }
+
+  .wrapper .textwrapper .flexcontent div{
+      max-width: 100%;
+
+  }
+  
+  section div, section img{
+    min-width: 90%;
+    width:100%;
+
+  }
+
+  .photo {
+    margin-top: 700px;
+    width: 100%;
+  }
+  .form{
+      max-width: 100%;
+  }
+}
+   
+@media only screen and (min-width:961px) {
+
+  .col1 , .skillbox{
+    max-width: 100%;
+  }
+
+  .wrapper .textwrapper .flexcontent div{
+    max-width: 100%;
+
+}
+.form{
+    max-width: 100%;
+}
+
+ 
+  }
