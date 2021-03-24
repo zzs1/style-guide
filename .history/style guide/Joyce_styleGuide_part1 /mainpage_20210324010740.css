@@ -28,10 +28,7 @@ a{
 a:hover{
   color:#FFFFFF;
 }
-.intro{
-  display: flex;
-  flex-direction: column;
-}
+.in
 #toparrow{
     position: fixed;
     bottom: 30px;

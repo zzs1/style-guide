@@ -30,7 +30,6 @@ a:hover{
 }
 .intro{
   display: flex;
-  flex-direction: column;
 }
 #toparrow{
     position: fixed;

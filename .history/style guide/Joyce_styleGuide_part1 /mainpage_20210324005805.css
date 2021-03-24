@@ -2,7 +2,6 @@ html, body, #main{
     background-color:white;
     width:100vw;
     height:100vh;
-    text-align: center;
 
 
 }
@@ -20,6 +19,9 @@ li{
   float:right;
   margin:10px;
   font-size:24px;
+
+
+
 }
 a{
   text-decoration: none;
@@ -28,10 +30,7 @@ a{
 a:hover{
   color:#FFFFFF;
 }
-.intro{
-  display: flex;
-  flex-direction: column;
-}
+
 #toparrow{
     position: fixed;
     bottom: 30px;
@@ -64,12 +63,22 @@ a:hover{
     clear: both;
   }
 
+  .titlewrap{
+      text-indent: 5px;
+      background-color: white;
+      border: 3px solid #d67a2e;
+      border-left-style:hidden;
+      border-right-style:hidden;
+      height:50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding:10px;
+  }
 h1{
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 36px;
     text-align: center;
-    border-top:3px solid #52A1C3;
-    border-bottom:3px solid #52A1C3;
+    border-top,
 }
 h2{
   font-family: 'Saira Semi Condensed', sans-serif;
