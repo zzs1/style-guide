@@ -52,7 +52,6 @@ p{
   from {top: 200px;}
   to {top: 10px;}
 }
-/*scrolling animation fin*/
 .title{
   display: flex;
   flex-direction: column;
@@ -89,30 +88,12 @@ flex-wrap: wrap;
 .pallet:hover > p{
   display: block;
 }
-/* color pallet css fin*/
 .subtitle {
   font-size:22px;
   color:#52A1C3;
   font-weight: bold;
 }
-/*slider design*/
-
-.slider {
-  -webkit-appearance: none;
-  width: 60%;
-  height: 15px;
-  border-radius: 5px;
-  background: #DADADA;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-.slider:hover {
-  opacity: 1;
-}
-/*slider design fin*/
+/**/
 .typobox{
   display:flex;
   flex-direction: column;

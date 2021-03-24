@@ -104,27 +104,18 @@
           <div class="title" style="background-color: #DADADA;"><h1 style="color:#FFFFFF; font-size:35px;">Saria Semi Condensed (Medium 500)</h1></div>
           <div id="saria">
             <div class="letter">
-              <div class="scale_container" style="background-color: #FFFFFF;margin-top:20px;border-radius: 20px;margin:10px;">
-              <div class="scale">
-                <span class="value">H6</span>
-                <input type="range" value="32" min="12" max="32" id="myRange1" class="slider">
-                <span class="value">H1</span>
-              </div>
-              <div class="output" style="font-size: 32px;">
-                <p><span id="heading1">Saria Semi Condensed</span></p>
-              </div>
-              </div>
-              <h1>H1(32px)</h1>
-              <h2>H2(24px)</h2>
-              <h3>H3(18.72px)</h3>
-              <h4>H4(16px)</h4>
-              <h5>H5(13.28px)</h5>
-              <h6>H6(12px)</h6>
-              <p>
+              <input type="range" value="32" min="12px" max=""
+            <h1>H1(32px): Saria Semi Condensed</h1>
+            <h2>H2(24px): Saria Semi Condensed</h2>
+            <h3>H3(18.72px): Saria Semi Condensed</h3>
+            <h4>H4(16px): Saria Semi Condensed</h4>
+            <h5>H5(13.28px): Saria Semi Condensed</h5>
+            <h6>H6(12px): Saria Semi Condensed</h6>
+            <p>
               ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
               abcdefghijklmnopqrstuvwxyz<br>
               1234567890
-              </p>
+            </p>
             </div>
             <div class="typopic">
               <img src="typoex1.png" alt="example text" width="100%"/>
@@ -133,22 +124,12 @@
           <div class="title" style="background-color: #DADADA;"><h1 style="color:#FFFFFF">Roboto (Regular 400)</h1></div>
           <div id="roboto">
             <div class="letter">
-              <div class="scale_container" style="background-color: #FFFFFF;margin-top:20px;border-radius: 20px;margin:10px;">
-                <div class="scale">
-                  <span class="value">H6</span>
-                  <input type="range" value="32" min="12" max="32" id="myRange2" class="slider">
-                  <span class="value">H1</span>
-                </div>
-                <div class="output" style="font-size: 32px;">
-                <p><span id="heading2">Roboto</span></p>
-                </div>
-              </div>
-            <h1>H1(32px)</h1>
-            <h2>H2(24px)</h2>
-            <h3>H3(18.72px)</h3>
-            <h4>H4(16px)</h4>
-            <h5>H5(13.28px)</h5>
-            <h6>H6(12px)</h6>
+            <h1>H1(32px): Roboto</h1>
+            <h2>H2(24px): Roboto</h2>
+            <h3>H3(18.72px): Roboto</h3>
+            <h4>H4(16px): Roboto</h4>
+            <h5>H5(13.28px): Roboto</h5>
+            <h6>H6(12px): Roboto</h6>
             <p>
               ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
               abcdefghijklmnopqrstuvwxyz<br>
@@ -230,21 +211,5 @@
     }
 }
  </script>
- <script>
- var slider1 = document.getElementById('myRange1');
- var slider2 = document.getElementById('myRange2');
-
-slider1.addEventListener('input', function() {
-    var size = slider1.value;
-    // this sets the body's font size property, but you can set whatever you need to
-    document.getElementById("heading1").style.fontSize = size + "px";
-});
-
-slider2.addEventListener('input', function() {
-    var size = slider2.value;
-    // this sets the body's font size property, but you can set whatever you need to
-    document.getElementById("heading2").style.fontSize = size + "px";
-});
-  </script>
 </body>
 </html>
