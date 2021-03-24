@@ -1,0 +1,70 @@
+body, html, #main{
+  margin:0;
+  height:100vh;
+  width:100vw;
+  font-family: 'Roboto', sans-serif;
+}
+#header{
+  margin:0;
+  
+  background-color:#82DED9;
+}
+#maincontainer{
+  display:flex;
+  height:70%;
+
+}
+#left_column{
+  flex-grow: 1;
+  background-color:#52A1C3;
+  max-width:30%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#right_column{
+  height:100%;
+  flex-grow: 2;
+  background-color: #ffffff;
+}
+.container{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+
+}
+.navbox{
+  flex-grow: 1;
+  font-size:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  
+}
+a:hover{
+font-size:40px;
+}
+
+.top{
+  background-color:#FFFFFF;
+  color:#82DED9;
+
+}
+.middle{
+  background-color:#F1EFEF;
+  color:#52A1C3;
+}
+.bot{
+  background-color:#DADADA;
+  color:#FFFFFF;
+}
